@@ -1,13 +1,13 @@
-package com.ali.test.nine.search;
+package com.ali.test.nine;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class SearchApplication {
+@SpringBootApplication(scanBasePackages = {"com.ali.test.nine"})
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(SearchApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
