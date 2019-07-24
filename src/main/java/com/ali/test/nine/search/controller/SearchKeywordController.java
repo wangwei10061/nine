@@ -18,6 +18,11 @@ public class SearchKeywordController {
 
     @RequestMapping("/search")
     public List<ResultBean> searchKeyword(@RequestParam(name = "keyword") String keyword) {
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return searchKeywordService.getSearchResult(keyword);
     }
 
