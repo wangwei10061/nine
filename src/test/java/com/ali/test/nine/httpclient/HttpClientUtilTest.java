@@ -14,13 +14,19 @@ public class HttpClientUtilTest {
     @Autowired
     private HttpClientUtil httpClientUtil;
 
-    @Test
-    public void post() {
-        httpClientUtil.post();
-    }
+//    @Test
+//    public void post() {
+//        httpClientUtil.post();
+//    }
 
     @Test
     public void get() {
-        httpClientUtil.get();
+
+        long startTime=System.nanoTime();   //获取开始时间
+        for(int i =0;i<1000;i++){
+            httpClientUtil.get();
+        }
+        long endTime=System.nanoTime(); //获取结束时间
+        System.out.println("程序运行时间： "+(endTime-startTime)+"ns");
     }
 }
