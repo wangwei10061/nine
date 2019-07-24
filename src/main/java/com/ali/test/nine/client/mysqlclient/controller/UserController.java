@@ -1,9 +1,9 @@
-package com.ali.test.nine.mysqlclient.controller;
+package com.ali.test.nine.client.mysqlclient.controller;
 
 import java.util.List;
 
-import com.ali.test.nine.mysqlclient.entity.User;
-import com.ali.test.nine.mysqlclient.service.UserService;
+import com.ali.test.nine.client.mysqlclient.service.UserService;
+import com.ali.test.nine.client.mysqlclient.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

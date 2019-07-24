@@ -1,9 +1,9 @@
-package com.ali.test.nine.mysqlclient.service;
+package com.ali.test.nine.client.mysqlclient.service;
 
 import java.util.List;
 
-import com.ali.test.nine.mysqlclient.entity.User;
-import com.ali.test.nine.mysqlclient.mapper.UserMapper;
+import com.ali.test.nine.client.mysqlclient.entity.User;
+import com.ali.test.nine.client.mysqlclient.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

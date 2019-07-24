@@ -1,8 +1,8 @@
-package com.ali.test.nine.mysqlclient.mapper;
+package com.ali.test.nine.client.mysqlclient.mapper;
 
 import java.util.List;
 
-import com.ali.test.nine.mysqlclient.entity.User;
+import com.ali.test.nine.client.mysqlclient.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

@@ -1,4 +1,4 @@
-package com.ali.test.nine.httpclient;
+package com.ali.test.nine.client.httpclient;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

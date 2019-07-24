@@ -1,4 +1,4 @@
-package com.ali.test.nine.mysqlclient.entity;
+package com.ali.test.nine.client.mysqlclient.entity;
 
 public class User {
 

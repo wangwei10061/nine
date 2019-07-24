@@ -1,4 +1,4 @@
-package com.ali.test.nine.netty;
+package com.ali.test.nine.client.netty;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

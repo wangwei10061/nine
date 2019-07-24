@@ -1,7 +1,7 @@
 package com.ali.test.nine.mysqlclient;
 
-import com.ali.test.nine.mysqlclient.entity.User;
-import com.ali.test.nine.mysqlclient.service.UserService;
+import com.ali.test.nine.client.mysqlclient.entity.User;
+import com.ali.test.nine.client.mysqlclient.service.UserService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -2,8 +2,8 @@ package com.ali.test.nine.concurrent.service.impl;
 
 import com.ali.test.nine.concurrent.service.HelperService;
 import com.ali.test.nine.concurrent.TestType;
-import com.ali.test.nine.httpclient.HttpClientUtil;
-import com.ali.test.nine.mysqlclient.service.UserService;
+import com.ali.test.nine.client.httpclient.HttpClientUtil;
+import com.ali.test.nine.client.mysqlclient.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
